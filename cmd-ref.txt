@@ -1,0 +1,37 @@
+
+
+$ bsc -u -sim DeepThought.bsv 
+checking package dependencies
+compiling DeepThought.bsv
+code generation for mkModuleDeepThought starts
+Elaborated module file created: mkModuleDeepThought.ba
+All packages are up to date.
+
+$ bsc -u -sim Tb.bsv 
+checking package dependencies
+compiling Tb.bsv
+code generation for mkTb starts
+Elaborated module file created: mkTb.ba
+All packages are up to date.
+
+$ bsc -e mkTb -sim -o ./mkTb_sim
+Bluesim object created: mkTb.{h,o}
+Bluesim object created: mkModuleDeepThought.{h,o}
+Bluesim object created: model_mkTb.{h,o}
+Simulation shared library created: mkTb_sim.so
+Simulation executable created: ./mkTb_sim
+$ ./mkTb_sim
+Hello World! The answer is: 42
+$
+//==================================================================
+
+$ bsc -u -sim the_CustomDataTypes.bsv
+$ bsc -u -sim the_CustomDataTypes2.bsv
+$ bsc -u -sim BOCfloat8_1_4_3.bsv
+$ bsc -u -sim BOCfloat8_1_5_2.bsv
+$ bsc -u -sim Tb_BOCfloat8_1_4_3.bsv
+$ bsc -e mkTb -sim -o ./mkTb_sim
+$ ./mkTb_sim
+
+//==================================================================
+
