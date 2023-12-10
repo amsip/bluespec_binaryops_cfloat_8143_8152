@@ -134,6 +134,9 @@ Note: The above mentioned files are used. There are many other .bsv & its relate
 
 Output:
 ---------
+![console output-1] (https://github.com/amsip/bluespec_binaryops_cfloat_8143_8152/blob/master/output-1.png)
+![console output-2] (https://github.com/amsip/bluespec_binaryops_cfloat_8143_8152/blob/master/output-2.png)
+
 $ ./mkTb_sim
 ================= Start ===
 
