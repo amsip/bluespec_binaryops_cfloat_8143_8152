@@ -1,6 +1,5 @@
 # bluespec_binaryops_cfloat_8143_8152
-bluespec_binaryops_cfloat_8143_8152
-Readme
+
 **Binary Operations Cfloat8_1_4_3, Cfloat8_1_5_2**
 
 Introduction:
@@ -132,84 +131,13 @@ Note: The above mentioned files are used. There are many other .bsv & its relate
 
 =======================================================================================================================================
 
-Output:
----------
-![console output-1] (https://github.com/amsip/bluespec_binaryops_cfloat_8143_8152/blob/master/output-1.png)
-![console output-2] (https://github.com/amsip/bluespec_binaryops_cfloat_8143_8152/blob/master/output-2.png)
+**Output:**
+-----------
+Screenshot image output:
 
-$ ./mkTb_sim
-================= Start ===
+- ![console output-1] (https://github.com/amsip/bluespec_binaryops_cfloat_8143_8152/blob/master/output-1.png)
+- ![console output-2] (https://github.com/amsip/bluespec_binaryops_cfloat_8143_8152/blob/master/output-2.png)
 
-================= Binary Ops Cfloat8_1_4_3 --single element ===
------------------ Binary Ops Cfloat8_1_4_3  Input ---
- Element a = 0 1010 110 
- Element b = 1 1011 101 
------------------- Binary Ops Cfloat8_1_4_3  Output ---
-Calculation via method-Divide():: 1 1111 001
-Calculation via method-Multiply():: 1 0101 110
-
-================= Binary Ops Cfloat8_1_5_2 --single element ===
------------------ Binary Ops Cfloat8_1_5_2  Input ---
- aa = 0 11010 10 
- bb = 1 10011 01 
------------------ Binary Ops Cfloat8_1_5_2  Output ---
-Calculation via method-Divide():: 1 00111 10
-Calculation via method-Multiply():: 1 01101 10
-
-================= Binary Ops Cfloat8_1_4_3 --List of elements ===
------------------ Binary Ops Cfloat8_1_4_3 -List() Input ---
-Element a 0: sign=0, exponent=0001, fraction=001
-Element a 1: sign=1, exponent=0110, fraction=010
-Element a 2: sign=0, exponent=0111, fraction=011
-Element a 3: sign=1, exponent=0100, fraction=100
-Element a 4: sign=0, exponent=0101, fraction=101
-------------------------------------
-Element b 0: sign=0, exponent=0001, fraction=001
-Element b 1: sign=1, exponent=0010, fraction=010
-Element b 2: sign=0, exponent=0011, fraction=011
-Element b 3: sign=1, exponent=0100, fraction=100
-Element b 4: sign=1, exponent=0101, fraction=101
------------------  Binary Ops Cfloat8_1_4_3 Divide-List() Output ---
-Element 0: sign=0, exponent=0110, fraction=001
-Element 1: sign=0, exponent=1010, fraction=001
-Element 2: sign=0, exponent=1010, fraction=001
-Element 3: sign=0, exponent=0110, fraction=001
-Element 4: sign=1, exponent=0110, fraction=001
------------------ Binary Ops Cfloat8_1_4_3 Multiply-List() Output ---
-Element 0: sign=0, exponent=1100, fraction=001
-Element 1: sign=0, exponent=0010, fraction=100
-Element 2: sign=0, exponent=0100, fraction=001
-Element 3: sign=0, exponent=0010, fraction=000
-Element 4: sign=1, exponent=0100, fraction=001
-
-================= Binary Ops Cfloat8_1_5_2 --List of elements ===
------------------ Binary Ops Cfloat8_1_5_2 -List() Input ---
-Element aa 0: sign=0, exponent=10001, fraction=01
-Element aa 1: sign=1, exponent=10110, fraction=10
-Element aa 2: sign=0, exponent=10111, fraction=11
-Element aa 3: sign=1, exponent=10100, fraction=10
-Element aa 4: sign=0, exponent=10101, fraction=01
-------------------------------------
-Element bb 0: sign=0, exponent=10001, fraction=01
-Element bb 1: sign=1, exponent=10010, fraction=10
-Element bb 2: sign=0, exponent=10011, fraction=11
-Element bb 3: sign=1, exponent=10100, fraction=10
-Element bb 4: sign=1, exponent=10101, fraction=01
------------------ Binary Ops Cfloat8_1_5_2 Divide-List() Output ---
-Element 0: sign=0, exponent=10110, fraction=01
-Element 1: sign=0, exponent=11010, fraction=01
-Element 2: sign=0, exponent=11010, fraction=01
-Element 3: sign=0, exponent=10110, fraction=01
-Element 4: sign=1, exponent=10110, fraction=01
------------------ Binary Ops Cfloat8_1_5_2 Multiply-List() Output ---
-Element 0: sign=0, exponent=01100, fraction=01
-Element 1: sign=0, exponent=10010, fraction=00
-Element 2: sign=0, exponent=10100, fraction=01
-Element 3: sign=0, exponent=10010, fraction=00
-Element 4: sign=1, exponent=10100, fraction=01
-================= End ===
-
-=======================================================================================================================================
 
 References:
 -------------
