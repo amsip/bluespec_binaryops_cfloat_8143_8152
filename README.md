@@ -34,41 +34,41 @@ Compile - Commands:
 ===================
 Execute in the below order.
 
-$ bsc -u -sim the_CustomDataTypes.bsv
-$ bsc -u -sim the_CustomDataTypes2.bsv
-$ bsc -u -sim BOCfloat8_1_4_3.bsv
-$ bsc -u -sim BOCfloat8_1_5_2.bsv
-$ bsc -u -sim Tb_BOCfloat8_1_4_3.bsv
-$ bsc -e mkTb -sim -o ./mkTb_sim
-$ ./mkTb_sim
+1. $ bsc -u -sim the_CustomDataTypes.bsv
+2. $ bsc -u -sim the_CustomDataTypes2.bsv
+3. $ bsc -u -sim BOCfloat8_1_4_3.bsv
+4. $ bsc -u -sim BOCfloat8_1_5_2.bsv
+5. $ bsc -u -sim Tb_BOCfloat8_1_4_3.bsv
+6. $ bsc -e mkTb -sim -o ./mkTb_sim
+7. $ ./mkTb_sim
 
 Files Descriptions:
 ====================
 
-1. File Name: the_CustomDataTypes.bsv
---------------------------------------
+**1. File Name: the_CustomDataTypes.bsv**
+------------------------------------------
 1. Custom Data Type declaration for Cfloat8_1_4_3, total of 8 bits,
-2. 1 = bit for sign
-3. 4 = bits for exponent
-4. 3 = bits for fraction
+- 1 = bit for sign
+- 4 = bits for exponent
+- 3 = bits for fraction
 
-2. File Name: the_CustomDataTypes2.bsv
-----------------------------------------
+**2. File Name: the_CustomDataTypes2.bsv**
+------------------------------------------
 1. Custom Data Type declaration for Cfloat8_1_5_2, total of 8 bits,
-2. 1 = bit for sign
-3. 5 = bits for exponent
-4. 2 = bits for fraction
+- 1 = bit for sign
+- 5 = bits for exponent
+- 2 = bits for fraction
 
-3.File Name: BOCfloat8_1_4_3.bsv
----------------------------------
+**3.File Name: BOCfloat8_1_4_3.bsv**
+------------------------------------
 1. Interface module to perform divide, multiply binary ops for Cfloat8_1_4_3.
 
-4.File Name: BOCfloat8_1_5_2.bsv
----------------------------------
+**4.File Name: BOCfloat8_1_5_2.bsv**
+-------------------------------------
 1. Interface module to perform divide, multiply binary ops for Cfloat8_1_5_2.
 
-5.File Name: Tb_BOCfloat8_1_4_3.bsv
-------------------------------------
+**5.File Name: Tb_BOCfloat8_1_4_3.bsv**
+---------------------------------------
 1. Main file to perform the below binar ops.
 2. step-by-step approach followed, started performing single element values to perform divide, multiply operations.
 3. Then, followed the List of elements to perform divide, multiply operations.
