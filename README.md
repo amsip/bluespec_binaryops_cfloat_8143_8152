@@ -142,6 +142,9 @@ Screenshot image output:
 **Synthesis output :**
 --------------------
 
+- ![sys output-1] (https://github.com/amsip/bluespec_binaryops_cfloat_8143_8152/blob/master/sys-op-1.png)
+- ![sys output-2] (https://github.com/amsip/bluespec_binaryops_cfloat_8143_8152/blob/master/sys-op-2.png)
+- 
 $ bsc -sim -u -elab -v Tb_BOCfloat8_1_4_3.bsv
 
 Bluespec Compiler, version 2021.12.1 (build fd501401)
