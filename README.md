@@ -139,6 +139,126 @@ Screenshot image output:
 - ![console output-2] (https://github.com/amsip/bluespec_binaryops_cfloat_8143_8152/blob/master/output-2.png)
 
 
+**Synthesis output :**
+--------------------
+
+$ bsc -sim -u -elab -v Tb_BOCfloat8_1_4_3.bsv
+
+Bluespec Compiler, version 2021.12.1 (build fd501401)
+
+This is free software; for source code and copying conditions, see
+
+https://github.com/B-Lang-org/bsc
+
+Invoking command line:
+
+bsc -sim -u -elab -v Tb_BOCfloat8_1_4_3.bsv
+
+checking package dependencies
+
+starting depend
+
+starting vpp
+
+vpp done
+
+ elapsed time: CPU 0.00s, real 0.00s
+
+starting bsvlex
+
+bsvlex done
+
+ elapsed time: CPU 0.02s, real 0.02s
+
+starting parsed
+
+parsed done
+
+ elapsed time: CPU 0.04s, real 0.05s
+
+starting vpp
+
+vpp done
+
+ elapsed time: CPU 0.00s, real 0.00s
+
+starting bsvlex
+
+bsvlex done
+
+ elapsed time: CPU 0.00s, real 0.00s
+
+starting parsed
+
+parsed done
+
+ elapsed time: CPU 0.00s, real 0.00s
+
+starting vpp
+
+vpp done
+
+ elapsed time: CPU 0.00s, real 0.00s
+
+starting bsvlex
+
+bsvlex done
+
+ elapsed time: CPU 0.00s, real 0.00s
+
+starting parsed
+
+parsed done
+
+ elapsed time: CPU 0.00s, real 0.00s
+
+starting vpp
+
+vpp done
+
+ elapsed time: CPU 0.00s, real 0.00s
+
+starting bsvlex
+
+bsvlex done
+
+ elapsed time: CPU 0.00s, real 0.00s
+
+starting parsed
+
+parsed done
+
+ elapsed time: CPU 0.00s, real 0.00s
+
+starting vpp
+
+vpp done
+
+ elapsed time: CPU 0.00s, real 0.00s
+
+starting bsvlex
+
+bsvlex done
+
+ elapsed time: CPU 0.00s, real 0.00s
+
+starting parsed
+
+parsed done
+
+ elapsed time: CPU 0.00s, real 0.00s
+
+depend done
+
+ elapsed time: CPU 0.07s, real 0.09s
+
+All packages are up to date.
+
+total
+
+ elapsed time: CPU 0.07s, real 0.09s
+
+
 References:
 -------------
 online reference, user guide from the bsc installed folder.
